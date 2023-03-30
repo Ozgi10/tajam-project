@@ -1,0 +1,35 @@
+.contenerNAV{
+display: flex;
+justify-content: center;
+margin-right: 150px;
+}
+.contener{
+    margin-left: 400px;
+    display: flex;
+    
+    display: flex;
+    justify-content: center;  
+
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+.navLogo{
+    margin-left: 200px;
+    align-self: flex-start;
+}
+.navLogoSpan{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+}
+.ahref{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+body {background-color: rgb(30, 26, 86);
