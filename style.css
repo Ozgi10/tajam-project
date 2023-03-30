@@ -1,27 +1,24 @@
 .contenerNAV{
 display: flex;
-justify-content: center;
-margin-right: 150px;
+justify-content: space-around;
+
 }
-.contener{
-    margin-left: 400px;
-    display: flex;
+.listContener{
     
     display: flex;
-    justify-content: center;  
-
+    gap: 10px;; 
+    align-self: center;
 }
 li{
     list-style: none;
-    margin: 10px;
+   
 }
-.navLogo{
-    margin-left: 200px;
-    align-self: flex-start;
+.logoContener{
+     align-self: center;
+    
 }
 .navLogoSpan{
-    margin-left: 30px;
-    margin-top: 10px;
+   
     font-size: 25px;
     color: rgb(255, 255, 255);
 
@@ -32,4 +29,6 @@ li{
     font-weight: bold;
 
 }
-body {background-color: rgb(30, 26, 86);
+body {
+    background-color: rgb(30, 26, 86);
+}
