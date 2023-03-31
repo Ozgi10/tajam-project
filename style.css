@@ -6,8 +6,9 @@ justify-content: space-around;
 .listContener{
     
     display: flex;
-    gap: 10px;; 
+    gap: 10px; 
     align-self: center;
+    
 }
 li{
     list-style: none;
@@ -18,6 +19,7 @@ li{
     align-items: center;
      align-self: center;
      gap: 20px;
+     
     
     
 }
@@ -32,6 +34,9 @@ li{
     color: rgb(255, 255, 255);
     font-weight: bold;
 
+}
+.ahref:hover{
+    color: rgb(131, 215, 235);
 }
 body {
     background-color: rgb(30, 26, 86);
