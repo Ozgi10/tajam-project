@@ -33,6 +33,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 30px;
 }
 
 body {
@@ -45,4 +46,16 @@ body {
 .Ptext {
   min-width: 50px;
   max-width: 400px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(131, 215, 235);
+}
+
+button:hover {
+  background-color: transparent;
 }
