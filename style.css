@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
- 
+* {
+  margin: 0;
+  padding: 0;
+}
 .contenerNAV {
   display: flex;
   justify-content: space-around;
+  
 }
 .listContener {
   display: flex;
   gap: 10px;
   align-self: center;
+  margin-top:20px;
 }
 li {
   list-style: none;
@@ -17,6 +22,7 @@ li {
   align-items: center;
   align-self: center;
   gap: 20px;
+  margin-top: 20px;
 }
 .navLogoSpan {
   font-size: 25px;
@@ -42,14 +48,17 @@ li {
 
   gap: 30px;
   color: rgb(255, 255, 255);
-
+  padding: 50px;
+  padding-top: 70px;
 }
 
-body {
-  background-image: url(./res/bgk-header.png);
-  background-size: cover;
+header{
+ height:600px;
+  background-image: url(res/bgk-header.png);
+  background-size:cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom center;;
+
 }
 
 .Ptext {
@@ -74,4 +83,24 @@ button {
 
 button:hover {
   background-color: transparent;
+}
+.contenerOurStory{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: aliceblue;
+  padding: 70px ;
+  padding: top 70px;
+}
+.ourStory{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 50px;
+}
+h4 {
+  width: 400px;
+  font-weight: lighter;
+
 }
