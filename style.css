@@ -39,7 +39,7 @@ li{
 
     font-family: 'Roboto', sans-serif;
 
-.contenerNAV {
+.contenerNAV{
   display: flex;
   justify-content: space-around;
 }
