@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +6,12 @@
 .contenerNAV {
   display: flex;
   justify-content: space-around;
-  
 }
 .listContener {
   display: flex;
   gap: 10px;
   align-self: center;
-  margin-top:20px;
+  margin-top: 20px;
 }
 li {
   list-style: none;
@@ -27,7 +26,7 @@ li {
 .navLogoSpan {
   font-size: 25px;
   color: rgb(131, 215, 235);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .ahref {
   text-decoration: none;
@@ -48,21 +47,16 @@ li {
 
   gap: 30px;
   color: rgb(255, 255, 255);
-
   padding: 50px;
   padding-top: 70px;
-
-
-
 }
 
-header{
- height:600px;
+header {
+  height: 600px;
   background-image: url(res/bgk-header.png);
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom center;;
-
+  background-position: bottom center;
 }
 
 .Ptext {
@@ -88,15 +82,15 @@ button {
 button:hover {
   background-color: transparent;
 }
-.contenerOurStory{
+.contenerOurStory {
   display: flex;
   justify-content: center;
   gap: 50px;
   background-color: aliceblue;
-  padding: 70px ;
+  padding: 70px;
   padding: top 70px;
 }
-.ourStory{
+.ourStory {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -106,5 +100,4 @@ button:hover {
 h4 {
   width: 400px;
   font-weight: lighter;
-
 }
