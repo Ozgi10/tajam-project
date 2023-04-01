@@ -48,8 +48,12 @@ li {
 
   gap: 30px;
   color: rgb(255, 255, 255);
+
   padding: 50px;
   padding-top: 70px;
+
+
+
 }
 
 header{
@@ -104,3 +108,28 @@ h4 {
   font-weight: lighter;
 
 }
+.watchOurStory{
+  height: 400px;
+  background-image: url(res/bgk-middle.png);
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+  
+}
+.playLogo{
+  width: 100px;
+ 
+}
+.watchText{
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+}
+
