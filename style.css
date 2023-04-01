@@ -43,6 +43,7 @@ li{
   display: flex;
   justify-content: space-around;
 }
+
 .listContener {
   display: flex;
   gap: 10px;
