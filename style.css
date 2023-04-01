@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
@@ -38,17 +39,62 @@ li{
 
     font-family: 'Roboto', sans-serif;
 
+.contenerNAV {
+  display: flex;
+  justify-content: space-around;
 }
-.ahref{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+.listContener {
+  display: flex;
+  gap: 10px;
+  align-self: center;
+}
+li {
+  list-style: none;
+}
+.logoContener {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  gap: 20px;
+}
+.navLogoSpan {
+  font-size: 25px;
+  color: rgb(131, 215, 235);
+}
+.ahref {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.ahref:hover {
+  color: rgb(131, 215, 235);
+}
 
+
+.contenerHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+body {
+  background-image: url(./res/bgk-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
 .ahref:hover{
     background: #299BFF;
     background: radial-gradient(circle farthest-side at center center, #299BFF 62%, #0AD6FF 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+
+.Ptext {
+  min-width: 50px;
+  max-width: 400px;
 }
 
