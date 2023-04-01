@@ -33,7 +33,8 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 70px;
 }
 
 body {
@@ -44,9 +45,14 @@ body {
 }
 
 .Ptext {
-  min-width: 50px;
-  max-width: 400px;
+  border-top: 2px solid rgb(131, 215, 235);
+  border-top-style: ridge;
+  padding: 20px;
+  min-width: 450px;
+  max-width: 100px;
   text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
 }
 
 button {
@@ -54,6 +60,8 @@ button {
   cursor: pointer;
   background-color: transparent;
   color: rgb(131, 215, 235);
+  border: 1px ridge rgb(131, 215, 235);
+  padding: 10px;
 }
 
 button:hover {
