@@ -32,10 +32,9 @@ li{
    
     font-size: 25px;
     background: #299BFF;
-background: radial-gradient(circle farthest-side at center center, #299BFF 62%, #0AD6FF 80%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
+    background: radial-gradient(circle farthest-side at center center, #299BFF 62%, #0AD6FF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
     font-family: 'Roboto', sans-serif;
 
@@ -48,10 +47,8 @@ background: radial-gradient(circle farthest-side at center center, #299BFF 62%, 
 }
 .ahref:hover{
     background: #299BFF;
-background: radial-gradient(circle farthest-side at center center, #299BFF 62%, #0AD6FF 80%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background: radial-gradient(circle farthest-side at center center, #299BFF 62%, #0AD6FF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-body {
-    background-color: rgb(30, 26, 86);
-}
+
