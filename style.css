@@ -1,43 +1,48 @@
-.contenerNAV{
-display: flex;
-justify-content: space-around;
+.contenerNAV {
+  display: flex;
+  justify-content: space-around;
+}
+.listContener {
+  display: flex;
+  gap: 10px;
+  align-self: center;
+}
+li {
+  list-style: none;
+}
+.logoContener {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  gap: 20px;
+}
+.navLogoSpan {
+  font-size: 25px;
+  color: rgb(131, 215, 235);
+}
+.ahref {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.ahref:hover {
+  color: rgb(131, 215, 235);
+}
 
+.contenerHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.listContener{
-    
-    display: flex;
-    gap: 10px; 
-    align-self: center;
-    
-}
-li{
-    list-style: none;
-   
-}
-.logoContener{
-    display: flex;
-    align-items: center;
-     align-self: center;
-     gap: 20px;
-     
-    
-    
-}
-.navLogoSpan{
-   
-    font-size: 25px;
-    color: rgb(131, 215, 235) ;
 
-}
-.ahref{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-
-}
-.ahref:hover{
-    color: rgb(131, 215, 235);
-}
 body {
-    background-color: rgb(30, 26, 86);
+  background-image: url(./res/bgk-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.Ptext {
+  min-width: 50px;
+  max-width: 400px;
 }
