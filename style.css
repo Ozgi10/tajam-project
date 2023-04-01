@@ -42,10 +42,18 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  color: rgb(255, 255, 255);
+  margin-top: 70px;
+
   gap: 30px;
   color: rgb(255, 255, 255);
+
   padding: 50px;
   padding-top: 70px;
+
+
+
 }
 
 header{
