@@ -124,142 +124,6 @@ h4 {
   font-weight: 200;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ContainerPeopleSay {
   width: 100%;
   display: flex;
@@ -366,9 +230,6 @@ h4 {
   padding-top: 30px;
 }
 
-.containerPeopleSay {
-  display: flex;
-}
 .h1Team {
   font-size: 20px;
   font-weight: lighter;
@@ -387,6 +248,7 @@ h4 {
   color: white;
   text-align: center;
 }
+
 .ContainerPeopleSay {
   width: 100%;
   display: flex;
@@ -402,24 +264,7 @@ h4 {
 
 .LogosContainer {
   display: flex;
-  width: 400px;
-}
-
-.logosColumn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-}
-
-.FormContainer {
-  width: 600px;
-}
-
-.LogosContainer {
-  display: flex;
-  width: 600px;
+  width: 250px;
 }
 
 .logosColumn {
