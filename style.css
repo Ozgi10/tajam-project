@@ -83,6 +83,7 @@ button:hover {
   background-color: transparent;
 }
 .contenerOurStory {
+  
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -102,7 +103,7 @@ h4 {
   font-weight: lighter;
 }
 .watchOurStory {
-  height: 400px;
+  height: 600px;
   background-image: url(res/bgk-middle.png);
   background-size: cover;
 
@@ -236,6 +237,149 @@ h4 {
   text-align: center;
 }
 
+.expertiseContener {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+
+.ContainerPeopleSay {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+  height: 800px;
+
+}
+.expertiseText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.ourExpertise {
+  
+  width: 1600px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 40px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+padding: 20px;
+}
+.expertiseCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  gap: 20px;
+  
+  
+  
+  
+}
+#borderLeft{
+border-left: 0.5px solid rgb(0, 0, 0);
+border-bottom: 0.5px solid rgb(0, 0, 0);
+}
+#borederRight{
+border-right: 0.5px solid rgb(0, 0, 0);
+border-top: 0.5px solid rgb(0, 0, 0);
+}
+#borederGame{
+  border-right: 0.5px solid rgb(0, 0, 0);
+  
+}
+.h2Expertise {
+  
+  font-size: 20px;
+  text-align: center;
+}
+.h3Expertise {
+  width: 200px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.h3ExpertisetTitle{
+  width: 600px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.ourTeamContener {
+  background-image: url(res/bgk-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+  width: 100%;
+ padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 20px;
+
+}
+.teamText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.theTeam{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.teamCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.teamButton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.containerPeopleSay {
+  display: flex;
+}
+.h1Team{
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+.h2Team{
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+.h3Team {font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
 .ContainerPeopleSay {
   width: 100%;
   display: flex;
@@ -262,7 +406,31 @@ h4 {
   width: 200px;
 }
 
+=======
+.FormContainer {
+  width: 600px;
+}
+
+.LogosContainer {
+  display: flex;
+  width: 400px;
+}
+
+.logosColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+
 .Logos {
   width: 100px;
   height: 100px;
 }
+
+
+
+
+
