@@ -25,7 +25,11 @@ li {
 }
 .navLogoSpan {
   font-size: 25px;
-  color: rgb(131, 215, 235);
+  background: #0080FF;
+background: radial-gradient(circle farthest-corner at center center, #0080FF 43%, #00C3FF 77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
   font-family: "Roboto", sans-serif;
 }
 .ahref {
@@ -34,7 +38,12 @@ li {
   font-weight: bold;
 }
 .ahref:hover {
-  color: rgb(131, 215, 235);
+  
+  background: #0080FF;
+background: radial-gradient(circle farthest-corner at center center, #0080FF 43%, #00C3FF 77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 
 .contenerHome {
@@ -80,7 +89,11 @@ button {
 }
 
 button:hover {
-  background-color: transparent;
+  background: #0080FF;
+background: radial-gradient(circle farthest-corner at center center, #0080FF 43%, #00C3FF 77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 .contenerOurStory {
   display: flex;
