@@ -257,35 +257,4 @@ border-top: 0.5px solid rgb(0, 0, 0);
   text-align: center;
 }
 
-.form {
-  flex-basis: 50%;
-  padding-right: 20px;
-}
 
-.image-column {
-  flex-basis: 25%;
-}
-
-.imgLogos {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 767px) {
-  .container {
-    flex-direction: column;
-  }
-
-  form,
-  .image-column {
-    flex-basis: 100%;
-    padding-right: 0;
-  }
-}
-
-.contenerSay {
-  display: flex;
-  justify-content: space-around;
-  align-items: stretch;
-}
