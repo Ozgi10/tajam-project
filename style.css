@@ -118,17 +118,29 @@ h4 {
 .playLogo {
   width: 100px;
 }
+
 .watchText {
   color: white;
   font-size: 20px;
   font-weight: 200;
 }
+
 .expertiseContener {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+
+
+.ContainerPeopleSay {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+  height: 800px;
+
 }
 .expertiseText {
   display: flex;
@@ -281,6 +293,25 @@ border-top: 0.5px solid rgb(0, 0, 0);
   align-items: center;
   width: 200px;
 }
+
+=======
+.FormContainer {
+  width: 600px;
+}
+
+.LogosContainer {
+  display: flex;
+  width: 400px;
+}
+
+.logosColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
 
 .Logos {
   width: 100px;
