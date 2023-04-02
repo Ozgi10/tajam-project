@@ -83,6 +83,7 @@ button:hover {
   background-color: transparent;
 }
 .contenerOurStory {
+  
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -102,7 +103,7 @@ h4 {
   font-weight: lighter;
 }
 .watchOurStory {
-  height: 400px;
+  height: 600px;
   background-image: url(res/bgk-middle.png);
   background-size: cover;
 
@@ -122,6 +123,62 @@ h4 {
   font-size: 20px;
   font-weight: 200;
 }
+.expertiseContener {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.expertiseText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.ourExpertise {
+  
+  width: 1600px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+padding: 20px;
+}
+.expertiseCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  margin-top: 30px;
+  
+  
+}
+.h2Expertise {
+  
+  font-size: 20px;
+  text-align: center;
+}
+.h3Expertise {
+  width: 200px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.h3ExpertisetTitle{
+  width: 600px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
 .ourTeamContener {
   background-image: url(res/bgk-header.png);
   background-size: cover;
@@ -186,7 +243,7 @@ h4 {
   text-align: center;
 }
 
-form {
+.form {
   flex-basis: 50%;
   padding-right: 20px;
 }
@@ -195,7 +252,7 @@ form {
   flex-basis: 25%;
 }
 
-img {
+.imgLogos {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
