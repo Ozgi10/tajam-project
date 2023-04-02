@@ -242,5 +242,38 @@ padding: 20px;
   color: white;
   text-align: center;
 }
+.ContainerPeopleSay {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+  height: 800px;
+}
+
+.FormContainer {
+  width: 600px;
+}
+
+.LogosContainer {
+  display: flex;
+  width: 400px;
+}
+
+.logosColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.Logos {
+  width: 100px;
+  height: 100px;
+}
+
+
+
 
 
