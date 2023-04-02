@@ -230,6 +230,7 @@ h4 {
   padding-top: 30px;
 }
 
+}
 .h1Team {
   font-size: 20px;
   font-weight: lighter;
@@ -252,30 +253,65 @@ h4 {
 .ContainerPeopleSay {
   width: 100%;
   display: flex;
-  justify-content: center;
-  gap: 50px;
-  padding: 30px;
-  height: 800px;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .FormContainer {
-  width: 600px;
-}
-
-.LogosContainer {
-  display: flex;
-  width: 250px;
-}
-
-.logosColumn {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 200px;
+  justify-content: center;
+  width: 600px;
+  
 }
-
-.Logos {
-  width: 100px;
+.form{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.mes {
+  width: 400px;
   height: 100px;
 }
+input {
+  width: 400px;
+  height: 25px;
+  place
+}
+input::placeholder{
+  opacity: 0.5;
+   position: relative;
+   left: +10px;
+
+}
+.mes::placeholder{
+  top: -40px;
+
+}
+.LogosContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  
+}
+
+.logoscolumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+ 
+  gap:30px ;
+}
+.Logos{
+  width: 200px;
+  
+}
+
+
+
+
