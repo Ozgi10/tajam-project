@@ -123,126 +123,142 @@ h4 {
   font-size: 20px;
   font-weight: 200;
 }
-.expertiseContener {
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-.expertiseText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-.ourExpertise {
-  width: 1600px;
-  height: 800px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-.expertiseCard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  width: 400px;
-  margin-top: 30px;
-}
-.h2Expertise {
-  font-size: 20px;
-  text-align: center;
-}
-.h3Expertise {
-  width: 200px;
-  font-size: 20px;
-  font-weight: lighter;
-  color: rgb(0, 0, 0);
-  text-align: center;
-}
-.h3ExpertisetTitle {
-  width: 600px;
-  font-size: 20px;
-  font-weight: lighter;
-  color: rgb(0, 0, 0);
-  text-align: center;
-}
 
-.ourTeamContener {
-  background-image: url(res/bgk-header.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
 
-  width: 100%;
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 
-  gap: 20px;
-}
-.teamText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-.theTeam {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-.teamCard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.teamButton {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
 
-.h1Team {
-  font-size: 20px;
-  font-weight: lighter;
-  color: white;
-  text-align: center;
-}
-.h2Team {
-  font-size: 20px;
-  font-weight: lighter;
-  color: white;
-  text-align: center;
-}
-.h3Team {
-  font-size: 20px;
-  font-weight: lighter;
-  color: white;
-  text-align: center;
-}
 
-.expertiseContener {
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .ContainerPeopleSay {
   width: 100%;
