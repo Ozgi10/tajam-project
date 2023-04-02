@@ -129,8 +129,11 @@ h4 {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding: 30px;
+  
   height: 800px;
+}
+.expertiseContener{
+  width: 100%;
 }
 .expertiseText {
   display: flex;
@@ -140,7 +143,7 @@ h4 {
   margin-top: 20px;
 }
 .ourExpertise {
-  width: 1600px;
+  
   height: 800px;
   display: flex;
   justify-content: center;
@@ -254,22 +257,33 @@ h4 {
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 20px;
+  height: 600px;
 }
 
 .FormContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  width: 600px;
+  width: 400px;
+  gap: 40px;
+  margin-left: 100px;
   
 }
 .form{
   display: flex;
   flex-direction: column;
+  margin: 30px;
   
   
+}
+.formButton {
+  width: 150px;
+}
+.h3giveUS {
+  margin-left: 30px;
 }
 .mes {
   width: 400px;
@@ -297,8 +311,10 @@ input::placeholder{
   width: 800px;
   
 }
-
-.logoscolumn {
+.h3OurHapyClents {
+margin-bottom: 75px;
+}
+.logoscolumn1, .logoscolumn2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -307,8 +323,13 @@ input::placeholder{
  
   gap:30px ;
 }
+.logoscolumn1 {
+ margin-bottom: 40px;
+}
 .Logos{
-  width: 200px;
+  
+  width: 100px;
+  
   
 }
 .footerContenair{
