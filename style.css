@@ -117,45 +117,40 @@ h4 {
 .playLogo {
   width: 100px;
 }
+
 .watchText {
   color: white;
   font-size: 20px;
   font-weight: 200;
 }
 
-.containerPeopleSay {
+.ContainerPeopleSay {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+  height: 800px;
 }
 
-form {
-  flex-basis: 50%;
-  padding-right: 20px;
+.FormContainer {
+  width: 600px;
 }
 
-.image-column {
-  flex-basis: 25%;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 767px) {
-  .container {
-    flex-direction: column;
-  }
-
-  form,
-  .image-column {
-    flex-basis: 100%;
-    padding-right: 0;
-  }
-}
-
-.contenerSay {
+.LogosContainer {
   display: flex;
-  justify-content: space-around;
-  align-items: stretch;
+  width: 400px;
+}
+
+.logosColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.Logos {
+  width: 100px;
+  height: 100px;
 }
