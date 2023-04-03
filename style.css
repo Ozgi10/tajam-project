@@ -70,8 +70,6 @@ header {
 }
 
 .Ptext {
-  border-top: 2px solid rgb(131, 215, 235);
-  border-top-style: ridge;
   padding: 20px;
   min-width: 450px;
   max-width: 100px;
@@ -430,3 +428,4 @@ display: flex;
   margin-top: 30px;
  
 }
+
