@@ -25,7 +25,12 @@ li {
 }
 .navLogoSpan {
   font-size: 25px;
-  color: rgb(131, 215, 235);
+  background: #2994FF;
+background: radial-gradient(circle farthest-corner at center center, #2994FF 47%, #00BBFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
   font-family: "Roboto", sans-serif;
 }
 .ahref {
@@ -34,7 +39,12 @@ li {
   font-weight: bold;
 }
 .ahref:hover {
-  color: rgb(131, 215, 235);
+  
+  background: #2994FF;
+  background: radial-gradient(circle farthest-corner at center center, #2994FF 47%, #00BBFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 
 .contenerHome {
@@ -80,7 +90,11 @@ button {
 }
 
 button:hover {
-  background-color: transparent;
+  background: #2994FF;
+  background: radial-gradient(circle farthest-corner at center center, #2994FF 47%, #00BBFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 .contenerOurStory {
   display: flex;
@@ -130,10 +144,9 @@ h4 {
   justify-content: center;
   gap: 50px;
   
-
   height: 800px;
 }
-.expertiseContener {
+.expertiseContener{
   width: 100%;
 }
 .expertiseText {
@@ -144,7 +157,7 @@ h4 {
   margin-top: 20px;
 }
 .ourExpertise {
-  width: 100%;
+  
   height: 800px;
   display: flex;
   justify-content: center;
@@ -234,6 +247,7 @@ h4 {
   padding-top: 30px;
 }
 
+  
 .h1Team {
   font-size: 20px;
   font-weight: lighter;
@@ -310,23 +324,106 @@ input {
   margin-bottom: 10px;
   margin-top: 28px;
 }
-
-.mes {
-  width: 400px;
-  height: 100px;
-  border: 2px solid #eee;
+.footerContenair{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-image: url(res/bgk-footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 400px;
 }
+.contenairLogo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 
-input {
-  width: 400px;
-  height: 25px;
 }
+.contenairOurStudio{
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 
-input::placeholder {
-  opacity: 0.5;
-  position: relative;
-  left: +10px;
+  gap: 20px;
+
 }
-.mes::placeholder {
-  top: -40px;
+.logoFooter{
+  display: flex;
+  align-items:center;
+  gap: 20px;
+}
+.textOurStudio{
+  display: flex;
+ 
+  align-items:flex-start;
+  gap: 20px;
+}
+.underTheLogo{
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+.termOfuse{
+  
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.h3termOfUse{
+  
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  width: 200;
+}
+.h2OurStudio, .h2stayINtouch{
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  margin : 40px;
+
+}
+.phoneNum{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.span{
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  width: 300px;
+}
+.contenairStayInTouch{
+display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+
+}
+.inputStay{
+  width: 200px;
+}
+.newsletter{
+  display: flex;
+  align-items: center;;
+  gap: 10px;
+}
+.socialMedia{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+ 
 }
